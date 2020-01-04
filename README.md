@@ -1,4 +1,4 @@
-#Description
+# Description
 
 This implementation aims to measure the elbow angle from a webcam and write it to the serial port.
 
@@ -20,14 +20,14 @@ The code for measuring the angle between given points was extracted from here:
 If you are new to OpenCV and need to learn more about the frame work, please refer to this website:
     https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html
 
-#Instructions:
-##Notes
+# Instructions:
+## Notes
 1. This code has only been tested on a linux OS. There might be some issues with serial port connectivity on other OS etc.
 2. Make sure you have a white background, that you are wearing a shirt and nothing in the frame (not even you shirt) matches your skin color.
 3. Make sure that the arm that you use doesn't go out of the image frame. It needs to stay inside the frame all of time for elbow angles to be measured.
 4. The program can only handle 1 arm or 1 face and 1 arm or 1 face 2 arms. Anything else will you issues.
 
-##How to run
+## How to run
 1. Connect an FTDI to your computer and into the cat. 
 2. Run the program by typing into the terminal: python3 vision_commander.py (You might need to resolve some issues with serial port connectivity at this stage).
 3. Now you will see 2 different screens on your window. Make sure your skin color stands out in them, that it is significantly different.
@@ -38,7 +38,7 @@ If you are new to OpenCV and need to learn more about the frame work, please ref
 8. Press "q" to close the program.
 
 
-##Potential issues:
+## Potential issues:
 1. Serial port issues: Please read through the code of Py_commander.py. It is very self-explanatory and you should be able to figure it out.
 
 2. Comptuter vision related:
