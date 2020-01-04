@@ -1,3 +1,6 @@
+
+![image](https://user-images.githubusercontent.com/42900802/71767975-033b6e80-2ee0-11ea-8951-62ee4cf1004e.png)
+
 # Description
 
 This implementation aims to measure the elbow angle from a webcam and write it to the serial port.
